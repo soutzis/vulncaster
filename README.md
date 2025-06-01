@@ -19,7 +19,7 @@ The system running Vulncaster requires:
 Make sure the python binary is included in PATH.
 
 ## Windows Setup
-1. Download and install the latest Python 3 version from the Microsoft Store or from the official website.
+1. Download and install the latest Python 3 version from the Microsoft Store or from the [official python downloads page](https://www.python.org/downloads/).
 ![alt text](img/image.png)
 2. If in a corporate network, allow access to the following domains **from the host that will be running Vulncaster**:
     > pypi.python.org<br>
