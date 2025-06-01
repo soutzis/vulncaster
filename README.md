@@ -1,6 +1,6 @@
 # Introduction 
-Vulncaster is a command-line tool that aims to automate the process of creating "Recast Risk" request to 
-Tenable Security Center Plus (by [Tenable®](https://www.tenable.com/products/security-center)).
+Vulncaster is a command-line tool that aims to automate the process of creating "Recast Risk" requests to 
+Tenable Security Center (by [Tenable®](https://www.tenable.com/products/security-center)).
 
 It is meant to further simplify the process of Vulnerability Management, by adding to the functionality 
 of the Tenable SC web application. Additionally, even though this tool is intended to be run on Windows 
@@ -20,7 +20,7 @@ Make sure the python binary is included in PATH.
 
 ## Windows Setup
 1. Download and install the latest Python 3 version from the Microsoft Store or from the official website.
-![alt text](image.png)
+![alt text](img/image.png)
 2. If in a corporate network, allow access to the following domains **from the host that will be running Vulncaster**:
     > pypi.python.org<br>
     > pypi.org<br>
