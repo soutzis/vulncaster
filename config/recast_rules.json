@@ -1,0 +1,36 @@
+{
+  "test": {
+    "new_severity": 0,
+    "id": "test",
+    "req_payload": {
+      "query": {
+        "name": "",
+        "description": "",
+        "context": "",
+        "status": -1,
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "groups": [],
+        "type": "vuln",
+        "tool": "vulndetails",
+        "sourceType": "cumulative",
+        "startOffset": 0,
+        "endOffset": 1,
+        "filters": [
+          {
+            "id": "netbiosName",
+            "filterName": "netbiosName",
+            "operator": "~=",
+            "type": "vuln",
+            "isPredefined": true,
+            "value": "PSOUTZIS"
+          },
+        ],
+        "vulnTool": "vulndetails"
+      },
+      "sourceType": "cumulative",
+      "columns": [],
+      "type": "vuln"
+    }
+  }
+}

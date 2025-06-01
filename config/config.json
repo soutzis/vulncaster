@@ -1,0 +1,28 @@
+{
+  "name": "vulncaster",
+  "author": "Petros Soutzis",
+  "version": "1.0.0",
+  "description": "A tool to perform various operations on Tenable Security Center Plus, that focuses on RecastRules.",
+  "prompt": "Vulncaster >> ",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/soutzis/vulncaster.git"
+  },
+  "api_documentation": "https://docs.tenable.com/security-center/api/index.htm",
+  "api_endpoint": {
+    "url": "",
+    "analysis": "/rest/analysis",
+    "bulk": "/rest/bulk",
+    "apikey_validation": "/rest/currentUser",
+    "headers": {
+      "Content-Type": "application/json",
+      "x-apikey": "",
+      "Accept": "application/json, text/javascript, */*; q=0.01",
+      "Host": "",
+      "User-Agent": "psoutzis/vulncaster"
+    }
+  },
+  "log_dir": "",
+  "interactive_auth": false,
+  "debug": false
+}

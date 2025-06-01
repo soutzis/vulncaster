@@ -1,0 +1,13 @@
+{
+  "plugins": [
+    "44676",
+    "35453",
+	"63155"
+  ],
+  "comments": [
+    "Not a vulnerability",
+    "Decommissioned",
+	"MANUAL RECAST",
+    "compensating controls in place"
+    ]
+}
